@@ -1,0 +1,56 @@
+Data Cleaning for customers table 
+
+1- we used first row as headers insted of column name 
+2- we did clean and trim captilize 
+3- we change date with locate data type date 
+
+4- احنا لقينا القيمه الاكثر تكرار وهي رياض وحطينها مكان قيم فاضية
+     واتاكدت انها رياض عن طريق grouping for citys
+	 
+5- Replace F and M with Female and male with match entire cell content checked 
+
+6- حل مش احسن حاجه gender
+    genderize.io انا كريت جدول جديد للاداتا الفاضيه في جدول بتاعت صف الجيندير وبعدين استخدمت 
+	marge inner join by customer id عشان اعمل اخليه  يعرف النوع من الاسامي وبعدين ربط جدول بتاعه بجدول بتاعي عن طريق 
+	null بعدين كاستم كولمن بي اف كوندشن عشان كان فيه 
+	null لان جدول جديد 155 صف والقديم 3000 صف عشان كده في 
+	
+----------------------------------------------------
+Data Cleaning for Product table 
+1- trim clean captilize all table 
+2- replace values in product name 
+3- بعد كده عاوزين نعرف نسبه التكلفه من البيع عن طريق قسمت 
+	استخدمنا الـ median لأن بيقلل تأثير القيم المتطرفة أو الغريبة، يعني لو في منتجات سعرها عالي جدًا أو منخفض جدًا ممكن يأثروا على الـ mean ويخلوه مش ممثل لباقي البيانات. أما الـ mode بيعبر عن الأكثر تكرار، وده مش دايمًا مفيد في نسب مستمرة زي cost ratio لأن ممكن ما يكونش فيه قيمة مكررة كتير. فالـ median هنا بيطلع قيمة وسطية أأمن تمثل الفئة من غير ما تتأثر بالشواذ أو القيم النادرة في البيانات. يعني ببساطة عشان نحافظ على تقدير أقرب للواقع
+4- بعدين عملت grouping 
+   حسب الفئة category 
+   عشان اعرف النسبه الفئه لكل منتج 
+   
+6- عملت عمود جديد وكتبت فيه 
+if [cost_price] <> null then [cost_price] 
+else [list_price] * [median cost ratio]   
+	
+	بص يا باشا أنت فعلاً وصلت لنقطة مهمة جدًا، وفيه فرق لازم تفهمه عشان ما تتلغبطش في الباور كويري. امتى بنقسم؟ لما نحسب الـ cost ratio نفسه: تكلفة على سعر البيع. امتى بنضرب؟ لما تكون عايز تقدّر تكلفة ناقصة. لما يكون عندك سعر البيع وعندك الـ median cost ratio للفئة، فبتعمل سعر البيع في النسبة. يعني لو المنتج ٢٠٠٠ جنيه والـ median cost ratio ٤٠٪، يبقى: ٢٠٠٠ * ٤٠٪ = ٨٠٠ جنيه، فدي الـ Cost Price Final. عايز تتأكد؟ اسألني بقى: لو عندك منتج سعره ٢٠٠٠ جنيه، والـ median cost ratio لفئته ٤٠٪، تطلع التكلفة كام؟ قولها بفهمك.
+
+7-
+	
+-----------------------------------------------------
+
+
+Data Cleaning for orders table 
+ 1- remove all dublecates all table
+ 2- covert all date form by locate into 1 form 
+ 2- in quinity we found nigative values so we replace -1 with 1 or we can do condithional column
+ 3- in discount we replace null with mode value قيمه الاكثر تكرار 
+ 4- in unit price we replace all null with list price column 
+ 5- order date replace null with mode value
+ 6- in quantity replace 0 value with 1 
+ 7- change discount data type with % 
+ 8- replace Delivred with Delivered
+ 9- trim clean all table 
+
+
+
+
+
+
+

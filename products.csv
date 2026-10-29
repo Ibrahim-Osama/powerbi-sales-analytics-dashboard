@@ -1,0 +1,121 @@
+﻿product_id,product_name,category,cost_price,list_price
+P0001,Headphones 1,Electronics,423.36,689.93
+P0002,Smart Watch 2,Beauty ,,418.87
+P0003,Power Bank 3,Electronics,,609.44
+P0004,Bluetooth Speaker 4,Electronics,383.84,583.54
+P0005,Keyboard 5,Electronics,,92.71
+P0006,Webcam 6,Electronics,527.42,828.63
+P0007,Phone Case 7  ,Electronics,416.75,610.29
+P0008,Charger 8,Electronics,429.61,577.37
+P0009,Headphones B1,Electronics,,118.69
+P0010,Smart Watch B2,Electronics,256.4,418.44
+P0011,Power Bank B3,Electronics,215.33,293.04
+P0012,Bluetooth Speaker B4,Electronics,502.21,929.76
+P0013,Keyboard B5,Electronics,356.23,579.83
+P0014,Webcam B6,Electronics,448.54,661.81
+P0015,Phone Case B7,Electronics,252.8,413.1
+P0016,Charger B8,Electronics,141.26,178.67
+P0017,Headphones C1,Electronics,310.17,580.97
+P0018,Smart Watch C2,Electronics,56.93,89.01
+P0019,Power Bank C3,Electronics,451.06,793.31
+P0020,Bluetooth Speaker C4,Electronics,349.94,456.24
+P0021,T-Shirt 1,Clothing,55.74,87.31
+P0022,Jeans 2,Clothing,28.62,44.9
+P0023,Jacket 3,Clothing,70.03,130.23
+P0024,Dress 4,clothing,64.82,105.11
+P0025,Sneakers 5,Clothing,57.11,88.96
+P0026,Hoodie 6,Clothing,17.88,25.45
+P0027,Scarf 7,clothing,36.16,52.99
+P0028,Socks 8,Clothing,7.74,12.29
+P0029,T-Shirt B1,Clothing,15.17,23.29
+P0030,Jeans B2,Clothing,50.7,64.09
+P0031,Jacket B3,clothing,54.85,98.02
+P0032,Dress B4,Clothing,69.82,127.95
+P0033,Sneakers B5  ,Clothing,26.7,35.81
+P0034,Hoodie B6,Book,29.69,47.8
+P0035,Scarf B7,Clothing,36.35,48.0
+P0036,Socks B8,Clothing,17.53,29.57
+P0037,T-Shirt C1,Clothing,13.53,19.39
+P0038,Jeans C2,Clothing,,61.72
+P0039,Jacket C3,Clothing,20.05,34.54
+P0040,Dress C4,Clothing,49.81,87.15
+P0041,Blender 1,Home & Kitchen,68.95,91.02
+P0042,Cookware Set 2,Home & Kitchen,,232.36
+P0043,Lamp 3,Home & Kitchen,106.84,149.54
+P0044,Cushion 4,Home & Kitchen,50.98,64.96
+P0045,Kettle 5,Home & Kitchen,125.85,202.7
+P0046,Storage Box 6,Home & Kitchen,,181.75
+P0047,Air Fryer 7,Home & Kitchen,61.8,110.58
+P0048,Towel Set 8  ,Home & Kitchen,47.52,84.37
+P0049,Blender B1,Home & Kitchen,104.28,151.85
+P0050,Cookware Set B2,Home & Kitchen,26.12,48.83
+P0051,Lamp B3,home & kitchen,34.79,50.07
+P0052,Cushion B4,Home&Kitchen,7.06,11.19
+P0053,Kettle B5,home & kitchen,119.32,169.0
+P0054,Storage Box B6,Home & Kitchen,101.74,189.08
+P0055,Air Fryer B7,Home & Kitchen,107.54,145.93
+P0056,Towel Set B8,Home & Kitchen,118.42,151.48
+P0057,Blender C1,Home & Kitchen,72.08,110.49
+P0058,Cookware Set C2,Home & Kitchen,87.9,166.57
+P0059,Lamp C3,Home & Kitchen,26.13,47.81
+P0060,Cushion C4,Home & Kitchen,22.49,39.06
+P0061,Face Cream 1  ,Clothes,33.08,60.5
+P0062,Perfume 2  ,Beauty,24.2,44.3
+P0063,Shampoo 3,beauty,28.44,45.14
+P0064,Lipstick 4  ,Beauty,,54.46
+P0065,Hair Dryer 5,Beauty,31.56,55.29
+P0066,Serum 6,Electronic,27.91,46.89
+P0067,Body Lotion 7,Beauty,28.16,42.04
+P0068,Nail Kit 8,Beauty,,21.87
+P0069,Face Cream B1,Beauty,4.39,7.62
+P0070,Perfume B2,Beauty,22.65,32.18
+P0071,Shampoo B3,Beauty,12.66,23.53
+P0072,Lipstick B4,Beauty,21.38,30.07
+P0073,Hair Dryer B5,Beauty,41.4,55.05
+P0074,Serum B6,Beauty,13.53,24.22
+P0075,Body Lotion B7,Beauty,5.62,7.58
+P0076,Nail Kit B8,beauty,15.66,21.4
+P0077,Face Cream C1,sports,16.21,26.58
+P0078,Perfume C2,Beauty,32.79,59.63
+P0079,Shampoo C3,Beauty,28.07,38.67
+P0080,Lipstick C4,Beauty,38.28,55.57
+P0081,Yoga Mat 1,Sports,121.99,214.13
+P0082,Dumbbells 2,Sports,77.42,145.68
+P0083,Water Bottle 3,Sports,147.86,232.95
+P0084,Running Belt 4,Sports,36.05,48.43
+P0085,Football 5,Sports,11.12,14.0
+P0086,Resistance Bands 6,Sports,22.76,31.85
+P0087,Gym Bag 7,Sports,132.02,176.34
+P0088,Jump Rope 8,Sports,87.01,147.09
+P0089,Yoga Mat B1,Sports,35.07,46.61
+P0090,Dumbbells B2,Sports,93.78,148.09
+P0091,Water Bottle B3,Sports,33.52,57.03
+P0092,Running Belt B4,Sports,127.52,207.57
+P0093,Football B5,Sports,84.3,116.32
+P0094,Resistance Bands B6,Sports,73.04,129.48
+P0095,Gym Bag B7,sports,59.3,101.7
+P0096,Jump Rope B8,Sports,116.11,200.91
+P0097,Yoga Mat C1  ,Sports,69.72,93.09
+P0098,Dumbbells C2,Sports,22.35,29.74
+P0099,Water Bottle C3,Sports,27.59,51.12
+P0100,Running Belt C4,Sports,173.42,261.59
+P0101,Novel 1,Books,21.97,31.76
+P0102,Cookbook 2,Books,17.33,27.17
+P0103,Business Guide 3,Books,7.7,12.94
+P0104,Kids Story 4  ,Books,23.32,43.64
+P0105,Notebook Set 5  ,Books,19.09,27.42
+P0106,Self-Help 6,Books,,32.78
+P0107,Atlas 7,Books,11.78,14.92
+P0108,Dictionary 8,Books,7.84,12.63
+P0109,Novel B1,Books,3.94,6.55
+P0110,Cookbook B2,books,21.84,28.8
+P0111,Business Guide B3,Books,11.92,15.99
+P0112,Kids Story B4,Books,6.29,9.58
+P0113,Notebook Set B5,Books,8.59,16.13
+P0114,Self-Help B6  ,Books,14.66,24.0
+P0115,Atlas B7,Books,5.72,10.62
+P0116,Dictionary B8,Books,20.82,36.91
+P0117,Novel C1,Books,18.64,28.96
+P0118,Cookbook C2,books,17.77,31.28
+P0119,Business Guide C3,Books,11.39,14.37
+P0120,Kids Story C4,Books,15.73,20.78
